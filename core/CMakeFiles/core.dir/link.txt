@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -g   CMakeFiles/core.dir/src/Hello.cpp.o  -o core 

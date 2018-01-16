@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -g   CMakeFiles/coretest.dir/test/Hello-test.cpp.o  -o coretest 
