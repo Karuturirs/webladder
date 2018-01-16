@@ -24,7 +24,7 @@ my_command(foo bar)
 #]===]
 
 # guard against in-source builds and bad build-type strings
-include(safeguards)
+#include(safeguards)
 
 #set(CMAKE_BUILD_TYPE Debug)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
@@ -37,9 +37,9 @@ add_executable(
 )
 
 
-find_package(GTest REQUIRED)
-include_directory(${GTEST_INCLUDE_DIRS})
-
+#find_package(GTest REQUIRED)
+#include_directory(${GTEST_INCLUDE_DIRS})
+#[=[
 add_executable(
  core-unit-test
  test/Hello-test.cpp
@@ -47,3 +47,4 @@ add_executable(
 )
 
 target_link_libraries(core-unit-test ${GTEST_LIBRARIES} pthread)
+#]=]

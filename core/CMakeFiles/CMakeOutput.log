@@ -558,3 +558,31 @@ make[1]: Leaving directory '/home/ravi/Documents/github/webladder/core/CMakeFile
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9db4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9db4.dir/build.make CMakeFiles/cmTC_e9db4.dir/build
+make[1]: Entering directory '/home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9db4.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e9db4.dir/CheckIncludeFile.c.o   -c /home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9db4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9db4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e9db4.dir/CheckIncludeFile.c.o  -o cmTC_e9db4 
+make[1]: Leaving directory '/home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e969/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e969.dir/build.make CMakeFiles/cmTC_2e969.dir/build
+make[1]: Entering directory '/home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e969.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2e969.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e969.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2e969.dir/CheckFunctionExists.c.o  -o cmTC_2e969 -lpthread 
+make[1]: Leaving directory '/home/ravi/Documents/github/webladder/core/CMakeFiles/CMakeTmp'
+
+

@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named coretest
-
-# Build rule for target.
-coretest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coretest
-.PHONY : coretest
-
-# fast build rule for target.
-coretest/fast:
-	$(MAKE) -f CMakeFiles/coretest.dir/build.make CMakeFiles/coretest.dir/build
-.PHONY : coretest/fast
-
-#=============================================================================
 # Target rules for targets named core
 
 # Build rule for target.
@@ -163,33 +150,6 @@ src/Hello.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/src/Hello.cpp.s
 .PHONY : src/Hello.cpp.s
 
-test/Hello-test.o: test/Hello-test.cpp.o
-
-.PHONY : test/Hello-test.o
-
-# target to build an object file
-test/Hello-test.cpp.o:
-	$(MAKE) -f CMakeFiles/coretest.dir/build.make CMakeFiles/coretest.dir/test/Hello-test.cpp.o
-.PHONY : test/Hello-test.cpp.o
-
-test/Hello-test.i: test/Hello-test.cpp.i
-
-.PHONY : test/Hello-test.i
-
-# target to preprocess a source file
-test/Hello-test.cpp.i:
-	$(MAKE) -f CMakeFiles/coretest.dir/build.make CMakeFiles/coretest.dir/test/Hello-test.cpp.i
-.PHONY : test/Hello-test.cpp.i
-
-test/Hello-test.s: test/Hello-test.cpp.s
-
-.PHONY : test/Hello-test.s
-
-# target to generate assembly for a file
-test/Hello-test.cpp.s:
-	$(MAKE) -f CMakeFiles/coretest.dir/build.make CMakeFiles/coretest.dir/test/Hello-test.cpp.s
-.PHONY : test/Hello-test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,15 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... coretest"
 	@echo "... edit_cache"
 	@echo "... core"
 	@echo "... src/Hello.o"
 	@echo "... src/Hello.i"
 	@echo "... src/Hello.s"
-	@echo "... test/Hello-test.o"
-	@echo "... test/Hello-test.i"
-	@echo "... test/Hello-test.s"
 .PHONY : help
 
 
