@@ -5,10 +5,10 @@
 using namespace std;
 
 class property{
-	
-	map<string,string> properties;
+
 	public:
-	void get_property(const string& filepath){
+
+	void get_property(const string& filepath, map<string,string> properties&){
 		string token;
 		ifstream myfile(filepath);
 		if(myfile.is_open()){
@@ -16,9 +16,11 @@ class property{
 				if(token.find('#') != 0 ){
 					size_t pos = token.find('=');
 					string key = token.substr(0,pos);
-					string value = token.substr(pos+1);					   properties.insert(pair<string,string>(key,value));
+					string value = token.substr(pos+1);
+ 					properties.insert(pair<string,string>(key,value));
 				}
-			}	
+			}
+			myfile.close();	
 		}else{
 		 	cout << "Not able to open the file:" << filepath <<endl;
 		}

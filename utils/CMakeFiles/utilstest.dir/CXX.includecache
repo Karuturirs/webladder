@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ravi/Documents/github/webladder/utils/test/propertytest.cc
+src/property.cc
+/home/ravi/Documents/github/webladder/utils/test/src/property.cc
+gtest/gtest.h
+-
+
