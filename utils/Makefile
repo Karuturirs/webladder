@@ -136,59 +136,59 @@ utils/fast:
 	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/build
 .PHONY : utils/fast
 
-src/property.o: src/property.cc.o
+src/property.o: src/property.cpp.o
 
 .PHONY : src/property.o
 
 # target to build an object file
-src/property.cc.o:
-	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/src/property.cc.o
-.PHONY : src/property.cc.o
+src/property.cpp.o:
+	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/src/property.cpp.o
+.PHONY : src/property.cpp.o
 
-src/property.i: src/property.cc.i
+src/property.i: src/property.cpp.i
 
 .PHONY : src/property.i
 
 # target to preprocess a source file
-src/property.cc.i:
-	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/src/property.cc.i
-.PHONY : src/property.cc.i
+src/property.cpp.i:
+	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/src/property.cpp.i
+.PHONY : src/property.cpp.i
 
-src/property.s: src/property.cc.s
+src/property.s: src/property.cpp.s
 
 .PHONY : src/property.s
 
 # target to generate assembly for a file
-src/property.cc.s:
-	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/src/property.cc.s
-.PHONY : src/property.cc.s
+src/property.cpp.s:
+	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/src/property.cpp.s
+.PHONY : src/property.cpp.s
 
-test/propertytest.o: test/propertytest.cc.o
+test/propertytest.o: test/propertytest.cpp.o
 
 .PHONY : test/propertytest.o
 
 # target to build an object file
-test/propertytest.cc.o:
-	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cc.o
-.PHONY : test/propertytest.cc.o
+test/propertytest.cpp.o:
+	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cpp.o
+.PHONY : test/propertytest.cpp.o
 
-test/propertytest.i: test/propertytest.cc.i
+test/propertytest.i: test/propertytest.cpp.i
 
 .PHONY : test/propertytest.i
 
 # target to preprocess a source file
-test/propertytest.cc.i:
-	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cc.i
-.PHONY : test/propertytest.cc.i
+test/propertytest.cpp.i:
+	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cpp.i
+.PHONY : test/propertytest.cpp.i
 
-test/propertytest.s: test/propertytest.cc.s
+test/propertytest.s: test/propertytest.cpp.s
 
 .PHONY : test/propertytest.s
 
 # target to generate assembly for a file
-test/propertytest.cc.s:
-	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cc.s
-.PHONY : test/propertytest.cc.s
+test/propertytest.cpp.s:
+	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cpp.s
+.PHONY : test/propertytest.cpp.s
 
 # Help Target
 help:

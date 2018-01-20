@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/utilstest.dir/test/propertytest.cc.o  -o utilstest /usr/lib/libgtest.a -lpthread 
+/usr/bin/c++      CMakeFiles/utilstest.dir/test/propertytest.cpp.o  -o utilstest /usr/lib/libgtest.a -lpthread 

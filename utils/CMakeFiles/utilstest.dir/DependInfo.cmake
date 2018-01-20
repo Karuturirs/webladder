@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ravi/Documents/github/webladder/utils/test/propertytest.cc" "/home/ravi/Documents/github/webladder/utils/CMakeFiles/utilstest.dir/test/propertytest.cc.o"
+  "/home/ravi/Documents/github/webladder/utils/test/propertytest.cpp" "/home/ravi/Documents/github/webladder/utils/CMakeFiles/utilstest.dir/test/propertytest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/utils.dir/src/property.cc.o"
+  "CMakeFiles/utils.dir/src/property.cpp.o"
   "utils.pdb"
   "utils"
 )

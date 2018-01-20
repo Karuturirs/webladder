@@ -57,38 +57,38 @@ include CMakeFiles/utilstest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/utilstest.dir/flags.make
 
-CMakeFiles/utilstest.dir/test/propertytest.cc.o: CMakeFiles/utilstest.dir/flags.make
-CMakeFiles/utilstest.dir/test/propertytest.cc.o: test/propertytest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ravi/Documents/github/webladder/utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/utilstest.dir/test/propertytest.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utilstest.dir/test/propertytest.cc.o -c /home/ravi/Documents/github/webladder/utils/test/propertytest.cc
+CMakeFiles/utilstest.dir/test/propertytest.cpp.o: CMakeFiles/utilstest.dir/flags.make
+CMakeFiles/utilstest.dir/test/propertytest.cpp.o: test/propertytest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ravi/Documents/github/webladder/utils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/utilstest.dir/test/propertytest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utilstest.dir/test/propertytest.cpp.o -c /home/ravi/Documents/github/webladder/utils/test/propertytest.cpp
 
-CMakeFiles/utilstest.dir/test/propertytest.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utilstest.dir/test/propertytest.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ravi/Documents/github/webladder/utils/test/propertytest.cc > CMakeFiles/utilstest.dir/test/propertytest.cc.i
+CMakeFiles/utilstest.dir/test/propertytest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utilstest.dir/test/propertytest.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ravi/Documents/github/webladder/utils/test/propertytest.cpp > CMakeFiles/utilstest.dir/test/propertytest.cpp.i
 
-CMakeFiles/utilstest.dir/test/propertytest.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utilstest.dir/test/propertytest.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ravi/Documents/github/webladder/utils/test/propertytest.cc -o CMakeFiles/utilstest.dir/test/propertytest.cc.s
+CMakeFiles/utilstest.dir/test/propertytest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utilstest.dir/test/propertytest.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ravi/Documents/github/webladder/utils/test/propertytest.cpp -o CMakeFiles/utilstest.dir/test/propertytest.cpp.s
 
-CMakeFiles/utilstest.dir/test/propertytest.cc.o.requires:
+CMakeFiles/utilstest.dir/test/propertytest.cpp.o.requires:
 
-.PHONY : CMakeFiles/utilstest.dir/test/propertytest.cc.o.requires
+.PHONY : CMakeFiles/utilstest.dir/test/propertytest.cpp.o.requires
 
-CMakeFiles/utilstest.dir/test/propertytest.cc.o.provides: CMakeFiles/utilstest.dir/test/propertytest.cc.o.requires
-	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cc.o.provides.build
-.PHONY : CMakeFiles/utilstest.dir/test/propertytest.cc.o.provides
+CMakeFiles/utilstest.dir/test/propertytest.cpp.o.provides: CMakeFiles/utilstest.dir/test/propertytest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/utilstest.dir/build.make CMakeFiles/utilstest.dir/test/propertytest.cpp.o.provides.build
+.PHONY : CMakeFiles/utilstest.dir/test/propertytest.cpp.o.provides
 
-CMakeFiles/utilstest.dir/test/propertytest.cc.o.provides.build: CMakeFiles/utilstest.dir/test/propertytest.cc.o
+CMakeFiles/utilstest.dir/test/propertytest.cpp.o.provides.build: CMakeFiles/utilstest.dir/test/propertytest.cpp.o
 
 
 # Object files for target utilstest
 utilstest_OBJECTS = \
-"CMakeFiles/utilstest.dir/test/propertytest.cc.o"
+"CMakeFiles/utilstest.dir/test/propertytest.cpp.o"
 
 # External object files for target utilstest
 utilstest_EXTERNAL_OBJECTS =
 
-utilstest: CMakeFiles/utilstest.dir/test/propertytest.cc.o
+utilstest: CMakeFiles/utilstest.dir/test/propertytest.cpp.o
 utilstest: CMakeFiles/utilstest.dir/build.make
 utilstest: /usr/lib/libgtest.a
 utilstest: CMakeFiles/utilstest.dir/link.txt
@@ -100,7 +100,7 @@ CMakeFiles/utilstest.dir/build: utilstest
 
 .PHONY : CMakeFiles/utilstest.dir/build
 
-CMakeFiles/utilstest.dir/requires: CMakeFiles/utilstest.dir/test/propertytest.cc.o.requires
+CMakeFiles/utilstest.dir/requires: CMakeFiles/utilstest.dir/test/propertytest.cpp.o.requires
 
 .PHONY : CMakeFiles/utilstest.dir/requires
 

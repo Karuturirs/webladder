@@ -1,4 +1,4 @@
-#include "src/property.cc"
+#include "../src/property.cpp"
 #include <gtest/gtest.h>
 
 TEST(PropertyReaderTest,PositiveCases){

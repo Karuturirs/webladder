@@ -16,9 +16,3 @@ string
 map
 -
 
-/home/ravi/Documents/github/webladder/utils/test/propertytest.cpp
-../src/property.cpp
-/home/ravi/Documents/github/webladder/utils/src/property.cpp
-gtest/gtest.h
--
-

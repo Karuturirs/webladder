@@ -8,11 +8,11 @@ include_directories(${GTEST_INCLUDE_DIRS})
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(
 	utils
-	src/property.cc
+	src/property.cpp
 	)
 
 add_executable(
 	utilstest
-	test/propertytest.cc
+	test/propertytest.cpp
 )
 target_link_libraries(utilstest  ${GTEST_LIBRARIES} pthread)

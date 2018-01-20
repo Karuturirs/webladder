@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <string>
 #include <map>
 
@@ -8,9 +9,9 @@ class property{
 
 	public:
 
-	void get_property(const string& filepath, map<string,string> properties&){
+	void get_property(const string& filepath, map<string,string>& properties){
 		string token;
-		ifstream myfile(filepath);
+		ifstream myfile(filepath, std::ifstream::in);
 		if(myfile.is_open()){
 			while(getline(myfile,token)){
 				if(token.find('#') != 0 ){
@@ -25,4 +26,4 @@ class property{
 		 	cout << "Not able to open the file:" << filepath <<endl;
 		}
 	}
-}
+};
